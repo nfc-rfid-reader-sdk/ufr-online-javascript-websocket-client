@@ -1,0 +1,22 @@
+<html>
+   <head>
+      <title>WebSocket client example - Real time event preview</title>
+      <script src="websocket_client.js"></script>
+      <link rel="stylesheet" type="text/css" href="websocket_client.css">
+   </head>
+   <h1>
+      WebSocket example - Real time event preview (uFR Online is working in server mode)
+   </h1>
+   <p><br>
+      uFR Online Websocket address: <input type="text" id="address" value="ws://"> 
+      <button onclick="connect(this)" id="btn">Connect</button>
+   <p>
+   <h4 id="status">Status: Disconnected</h4>
+   <br>
+   <p>
+   <table style="width:50%" id="preview">
+      <tr>
+         <th>UID</th>
+      </tr>
+   </table>
+</html>
